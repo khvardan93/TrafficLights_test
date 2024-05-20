@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19381e36a5cbc0c48a610c6e4c08b8b7, type: 3}
+  m_Name: IntersectionConfig
+  m_EditorClassIdentifier: 
+  LightSteps:
+  - LightState: 0
+    Priority: 1
+  - LightState: 1
+    Priority: 0
+  - LightState: 3
+    Priority: 1
+  - LightState: 2
+    Priority: 0
+  MinorDelay: 2
+  MajorDelay: 5
+  SeparateStates:
+  - State: 0
+    Separate: 3
+  - State: 2
+    Separate: 1
